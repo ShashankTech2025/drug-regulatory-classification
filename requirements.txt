@@ -1,0 +1,43 @@
+what are different types of activation function 
+why you do use an AF and what if we do not use an AF 
+what is learning rate 
+what is exploding gradient problem and vanishing gradient problem 
+what is local and global minima 
+
+
+LR is step size taken towards global minima 
+
+minimum error call as global minima 
+error is grater than global minima called as local minima 
+
+exploding dradient
+when we take very big number as LR then the weights (b0,b1) get updated grastically bcz of that we skip or over jump global minima this problem is called exploading gradient problem  
+
+vanishing garident problem 
+when we take a very small value as LR then hardly there is any change in the weights and training weights almost stoped bcz of this it will take to much time and processing to reach to global minima this problem is called as vanishing garident problem
+
+Activation Function 
+AF introduces non linearity to the algorithm it also decides wether particular neuron will get activated or not if yes then how much  
+
+Types AF
+Identity AF : use when output is + - 0 
+ReLU : - values = 0
+       + values = no change 
+sigmoid : binary class classification used in only in output layer
+SoftMax : multiclass classification 
+TanH : binary class classification 
+output range -1 to 1 
+0-1=1 deafualt 
+-1-0=0 non deafualt 
+ 
+
+ML
+
+1)PREDICTION IS NUMERIC = liner regression (predict a number ) Algorithms = (Liner regression ,Lasso Regression ,Ridge Regression, Decesion Tree ,random forest ,xgboost ,ANN,SVM, Auto ML = TPOT)
+2)pridction is word = classification like yes or no or multiclass (predict a class ) Algorithms =(Logistic  regression, KNN, SVM , Decesion Tree ,random forest ,xgboost ,ANN,, Auto ML = TPOT , naive baise )= supervised 
+
+why ml is imp 
+ml is about predicting the future 
+
+
+ 
